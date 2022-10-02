@@ -11,6 +11,7 @@
     die("Database connection failed: " . $conn->connect_error);
   }
 
+ header("Location: http://localhost:81/saioaHasi.php");
 
 
 $query = mysqli_query($conn, "SELECT * FROM usuarios")
