@@ -5,9 +5,9 @@ Informaizo Sistemen Segurtasuna Kudeatzeko Sistemak irakasgaian garatutako Web S
 
 
 ## Aurkibidea
-* Proiektuaren deskribapena](#Proiektuen-deskribapena)
-* [Technologies](#technologies)
-* [Setup](#setup)
+* [Proiektuaren deskribapena](#Proiektuen-deskribapena)
+* [Taldekidea](#Taldekideak)
+* [Docker bidez proiektua hedatzeko instrukzioak](#Docker-bidez-proiektua-hedatzeko-instrukzioak)
 
 ## Taldekideak
 * Sergio Martin
