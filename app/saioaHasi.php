@@ -1,13 +1,12 @@
 <?php
-require "index.php";
+#require "index.php";
 
-Session_start();
+#Session_start();
 
 
-
-echo '<h1>Yeah, it works!<h1>';
-header("Location: http://localhost:81/saioaHasi.php");
-exit();
+ 
+    echo '<h1>Yeah, it worksaaaa!<h1>';
+ 
 
 
 ?>
