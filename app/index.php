@@ -11,6 +11,7 @@
   }
 
 header("Location: http://localhost:81/saioaHasi.php");
+exit();
  
 
 ?>
