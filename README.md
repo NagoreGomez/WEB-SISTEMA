@@ -6,7 +6,7 @@
 * [Docker bidez proiektua hedatzeko instrukzioak](#Docker-bidez-proiektua-hedatzeko-instrukzioak)
 
 ## Proiektuaren deskribapena
-Informaizo Sistemen Segurtasuna Kudeatzeko Sistemak irakasgaian garatutako Web Sistema
+Informaizo Sistemen Segurtasuna Kudeatzeko Sistemak irakasgaian garatutako Web Sistema.
 
 
 ## Taldekideak
