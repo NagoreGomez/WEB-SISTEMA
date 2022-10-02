@@ -42,8 +42,7 @@ CREATE TABLE `usuarios` (
 INSERT INTO `usuarios` (`NAN`, `Izen abizenak`,`Telefonoa`,`Jaiotze data`,`Email`) VALUES
 ('12345678A', 'Nagore Gomez', '698876543','2002-11-05, 'a@gmail.com'),
 ('12345678B', 'Jonas Martinez','634768598','2002-04-14', b@gmail.com'),
-('12345678C', 'Sergio Martin','665289605','2002-06-24', 'c@gmail.com')
-);
+('12345678C', 'Sergio Martin','665289605','2002-06-24', 'c@gmail.com');
 
 --
 -- Índices para tablas volcadas
