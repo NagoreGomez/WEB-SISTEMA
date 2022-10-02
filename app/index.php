@@ -19,8 +19,11 @@ $query = mysqli_query($conn, "SELECT * FROM usuarios")
 while ($row = mysqli_fetch_array($query)) {
   echo
    "<tr>
-    <td>{$row['id']}</td>
-    <td>{$row['nombre']}</td>
+    <td>{$row['NAN']}</td>
+    <td>{$row['Izen abizenak']}</td>
+    <td>{$row['Telefonoa']}</td>
+    <td>{$row['Jaiotze data']}</td>
+    <td>{$row['Email']}</td>
    </tr>";
    
 
