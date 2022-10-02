@@ -13,6 +13,26 @@ Informaizo Sistemen Segurtasuna Kudeatzeko Sistemak irakasgaian garatutako Web S
 * Sergio Martin
 * Jonas Martinez
 * Nagore Gomez
+* a
+* a
+* a
+* a
+* a
+* a
+
+a
+a
+
+a
+a
+
+aa
+
+a
+a
+
+a
+
 
 ## Docker bidez proiektua hedatzeko instrukzioak
 
