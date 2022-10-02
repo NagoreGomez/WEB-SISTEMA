@@ -10,8 +10,8 @@ Informazio Sistemen Segurtasuna Kudeatzeko Sistemak irakasgaian garatutako Web S
 
 
 ## Taldekideak
-* Sergio Martin
-* Jonas Martinez
+* Sergio Martín
+* Jonás Martínez
 * Nagore Gomez
 
 ## Docker bidez proiektua hedatzeko instrukzioak
