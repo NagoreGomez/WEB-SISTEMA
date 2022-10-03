@@ -20,7 +20,7 @@ Informazio Sistemen Segurtasuna Kudeatzeko Sistemak irakasgaian garatutako Web S
 3. karpeta horren terminala ireki --> eskubiko klika eta "ireki hau terminalean" klikatu
 4. Terminalean hurrengo komandoak sartu:
     * `git clone https://github.com/NagoreGomez/WEB-SISTEMA`
-    * `sudo docker build -t web .`
+    * `sudo docker build -t="web" .`
     * `sudo docker-compose up`
 5. [Ireki php my admin](http://localhost:8890)
 6. Erabiltzailea="admin" Pasahitza="test"
