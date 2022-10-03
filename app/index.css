@@ -57,7 +57,7 @@ input {
   }
 }
 
-.login-username, .login-password {
+.login-info {
   background: transparent;
   border: 0 solid;
   border-bottom: 1px solid rgba(white, .5);
