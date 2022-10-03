@@ -71,7 +71,7 @@ while ($row = mysqli_fetch_array($query)) {
   <input type="submit" name="Login" value="Login" class="login-submit" />
   
 </form></form>
-<a class="login-erregistro" onclick="location.href='erregistratu.php'" >Erregistratu nahi duzu?</a>
+<a class="login-erregistro" href="erregistratu.php" >Erregistratu nahi duzu?</a>
 
 
 <div class="underlay-photo"></div>
