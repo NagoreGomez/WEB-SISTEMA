@@ -21,7 +21,7 @@ session_start();
 ?>
 
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
  <link
       rel="stylesheet"
        type=text/css
