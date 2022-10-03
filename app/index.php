@@ -15,7 +15,7 @@ session_start();
 
     if($row['Email']!=null){ #erabiltzailea erregistratuta egotekotan 
       $_SESSION['Email'] = $erabiltzaile;     
-      header("Location: http://localhost:81/erabiltzailearenMenua.php");
+      header("Location: http://localhost:81/erregistratu.php");
       exit;      
     }
     
