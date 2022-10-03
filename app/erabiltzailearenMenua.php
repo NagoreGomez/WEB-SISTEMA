@@ -1,6 +1,6 @@
 <?php
 
-require "index.php";
+require "konexioa.php";
 
 session_start();
 
