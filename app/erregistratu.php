@@ -20,8 +20,11 @@ session_start();
 
 ?>
 
+
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
  <link
       rel="stylesheet"
        type=text/css
