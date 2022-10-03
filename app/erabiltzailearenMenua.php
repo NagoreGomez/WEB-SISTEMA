@@ -29,7 +29,7 @@ session_start();
  
  
  <body>
-<form action="erregistro.php" method="POST" >
+<form action="erabiltzailearenMenua.php" method="POST" >
 <form class="login-form">
   <p class="login-text">
     <span class="fa-stack fa-lg">
