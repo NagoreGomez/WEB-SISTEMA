@@ -40,10 +40,10 @@ CREATE TABLE `Erabiltzaileak` (
 -- Volcado de datos para la tabla `usuarios`
 --
 
-INSERT INTO `Erabiltzaileak` (`NAN`, `Izen abizenak`,`Telefonoa`,`Jaiotze data`,`Email`) VALUES
-('12345678A', 'Nagore Gomez', '698876543','2002-11-05', 'a@gmail.com', "123456"),
-('12345678B', 'Jonas Martinez','634768598','2002-04-14', 'b@gmail.com', "98765"),
-('12345678C', 'Sergio Martin','665289605','2002-06-24', 'c@gmail.com', "Contra0");
+INSERT INTO `Erabiltzaileak` (`NAN`, `Izen abizenak`,`Telefonoa`,`Jaiotze data`,`Email`,`Pasahitza` ) VALUES
+('12345678A', 'Nagore Gomez', '698876543','2002-11-05', 'a@gmail.com', '123456'),
+('12345678B', 'Jonas Martinez','634768598','2002-04-14', 'b@gmail.com', '98765'),
+('12345678C', 'Sergio Martin','665289605','2002-06-24', 'c@gmail.com', 'Contra0');
 
 --
 -- Índices para tablas volcadas
