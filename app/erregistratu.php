@@ -1,7 +1,7 @@
 <?php
 
-  $host = $_SERVER['HTTP_HOST'];
-  include ("DBKonexioa.php");
+require "konexioa.php";
+  
 
 session_start();
     $nan= $_POST['NAN'];
@@ -11,7 +11,7 @@ session_start();
     $telefonoa= $_POST['Telefonoa'];
     $pasahitza= $_POST['Pasahitza'];
     
-    $sql ="INSERT INTO `erabiltzaileak` VALUES ('$nan', '$izena', '$jaio', '$email', '$telefonoa', '$pasahitza')
+    $sql ="INSERT INTO `erabiltzaileak` VALUES ('$nan', '$izena', '$jaio', '$email', '$telefonoa', '$pasahitza');
     $query = mysqli_query($conn,$sql);
     $row = mysqli_fetch_array($query);
  
