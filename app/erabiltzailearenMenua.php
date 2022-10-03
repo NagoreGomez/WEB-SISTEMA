@@ -4,7 +4,7 @@ require "konexioa.php";
 
 session_start();
     $nan= $_POST['NAN'];
-    $izena= $_POST['Izen Abizenak']
+    $izena= $_POST['Izen Abizenak'];
     $jaio= $_POST['Jaiotza'];
     $email= $_POST['Email'];
     $telefonoa= $_POST['Telefonoa'];
