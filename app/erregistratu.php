@@ -1,6 +1,7 @@
 <?php
 
-require "konexioa.php";
+  $host = $_SERVER['HTTP_HOST'];
+  include ("DBKonexioa.php");
 
 session_start();
     $nan= $_POST['NAN'];
