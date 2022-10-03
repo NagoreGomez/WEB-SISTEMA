@@ -4,8 +4,8 @@ require "konexioa.php";
 
 session_start();
     $nan= $_POST['NAN'];
-    $izena= $_POST['Izen abizenak']
-    $jaio= $_POST['Jaiotze data'];
+    $izena= $_POST['Izen Abizenak']
+    $jaio= $_POST['Jaiotza'];
     $email= $_POST['Email'];
     $telefonoa= $_POST['Telefonoa'];
     $pasahitza= $_POST['Pasahitza'];
@@ -39,7 +39,7 @@ session_start();
   </p>
   <input type="NAN" name="NAN" class="login-info" autofocus="true" required="true" placeholder="NAN" />
   <input type="Izen Abizenak" name="Izen Abizenak" class="login-info" autofocus="true" required="true" placeholder="Izen Abizenak" />
-  <input type="Jaiotze data" name="Jaiotze data" class="login-info" autofocus="true" required="true" placeholder="Jaiotze data (MM/DD/YYYY)" />
+  <input type="Jaiotza" name="Jaiotza" class="login-info" autofocus="true" required="true" placeholder="Jaiotze data (MM/DD/YYYY)" />
   <input type="Telefonoa" name="Telefonoa" class="login-info" autofocus="true" required="true" placeholder="Telefonoa" />
   <input type="Email" name="Email" class="login-info" autofocus="true" required="true" placeholder="Helbide elektronikoa" />
   <input type="Pasahitza"  name="Pasahitza"  class="login-info" required="true" placeholder="Pasahitza" />
