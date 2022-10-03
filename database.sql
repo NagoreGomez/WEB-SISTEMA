@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Estructura de tabla para la tabla `usuarios`
 --
 
-CREATE TABLE `Erabiltzaileak` (
+CREATE TABLE `erabiltzaileak` (
   `NAN` varchar(9) NOT NULL,
   `Izen abizenak` text NOT NULL,
   `Telefonoa` int(9) NOT NULL,
@@ -40,7 +40,7 @@ CREATE TABLE `Erabiltzaileak` (
 -- Volcado de datos para la tabla `usuarios`
 --
 
-INSERT INTO `Erabiltzaileak` (`NAN`, `Izen abizenak`,`Telefonoa`,`Jaiotze data`,`Email`,`Pasahitza` ) VALUES
+INSERT INTO `erabiltzaileak` (`NAN`, `Izen abizenak`,`Telefonoa`,`Jaiotze data`,`Email`,`Pasahitza` ) VALUES
 ('12345678A', 'Nagore Gomez', '698876543','2002-11-05', 'a@gmail.com', '123456'),
 ('12345678B', 'Jonas Martinez','634768598','2002-04-14', 'b@gmail.com', '98765'),
 ('12345678C', 'Sergio Martin','665289605','2002-06-24', 'c@gmail.com', 'Contra0');
@@ -52,7 +52,7 @@ INSERT INTO `Erabiltzaileak` (`NAN`, `Izen abizenak`,`Telefonoa`,`Jaiotze data`,
 --
 -- Indices de la tabla `usuarios`
 --
-ALTER TABLE `Erabiltzaileak`
+ALTER TABLE `erabiltzaileak`
   ADD PRIMARY KEY (`NAN`);
 COMMIT;
 
