@@ -5,27 +5,44 @@ require "konexioa.php";
 
 session_start();
 
- 
+    $email= $_POST['Email'];
+    $pasahitza= $_POST['Pasahitza'];
+    
+    
+    $sql ="SELECT * FROM `erabiltzaileak` WHERE `Email` = '$email' and `Pasahitza` = '$pasahitza'";
+    $query = mysqli_query($conn,$sql);
+    $row = mysqli_fetch_array($query);
 
-$query = mysqli_query($conn, "SELECT * FROM erabiltzaileak")
+    if($row['Email']!=null){ #erabiltzailea erregistratuta egotekotan 
+      $_SESSION['Email'] = $erabiltzaile;     
+      header("Location: http://localhost:81/saioaHasi.php");
+      exit;      
+    }
+    
+    
+    
+
+ /*
+ $query = mysqli_query($conn, "SELECT * FROM erabiltzaileak WHERE `Email` = '$email'")
   or die (mysqli_error($conn));
 
 while ($row = mysqli_fetch_array($query)) {
   echo
-   "<tr>
-    <td>{$row['NAN']}</td>
+  "<tr>
+   <td>{$row['NAN']}</td>
     <td>{$row['Izen abizenak']}</td>
     <td>{$row['Telefonoa']}</td>
     <td>{$row['Jaiotze data']}</td>
-    <td>{$row['Email']}</td>
-    <td>{$row['Pasahitza']}</td>
-   </tr>";
+   <td>{$row['Email']}</td>
+   <td>{$row['Pasahitza']}</td>
+  </tr>";
    
 
 }
 
-  #header("Location: http://localhost:81/saioaHasi.php");
-  #exit;
+*/
+
+ 
   
   
 ?>
@@ -40,22 +57,25 @@ while ($row = mysqli_fetch_array($query)) {
  
  <body>
  
+<form action="index.php" method="POST" > 
 <form class="login-form">
+
   <p class="login-text">
     <span class="fa-stack fa-lg">
        <i class="fa fa-user fa-solid-2x"></i>
       
     </span>
   </p>
-  <input type="email" class="login-username" autofocus="true" required="true" placeholder="Helbide elektronikoa" />
-  <input type="password" class="login-password" required="true" placeholder="Pasahitza" />
+  <input type="email" name="Email" class="login-username" autofocus="true" required="true" placeholder="Helbide elektronikoa" />
+  <input type="password"  name="Pasahitza"  class="login-password" required="true" placeholder="Pasahitza" />
   <input type="submit" name="Login" value="Login" class="login-submit" />
   
-</form>
-<a href="#" class="login-erregistro">Erregistratu nahi duzu?</a>
+</form></form>
+<a href="erregistratu.php"" class="login-erregistro">Erregistratu nahi duzu?</a>
+
+
 <div class="underlay-photo"></div>
 <div class="underlay-black"></div> 
 
   </body>
  </html>
-
