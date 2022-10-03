@@ -7,21 +7,22 @@ session_start();
 
  
 
-#$query = mysqli_query($conn, "SELECT * FROM usuarios")
-  # or die (mysqli_error($conn));
+$query = mysqli_query($conn, "SELECT * FROM Erabiltzaileak")
+  or die (mysqli_error($conn));
 
-#while ($row = mysqli_fetch_array($query)) {
-  #echo
-   #"<tr>
-    ##<td>{$row['NAN']}</td>
-    #<td>{$row['Izen abizenak']}</td>
-    #<td>{$row['Telefonoa']}</td>
-   # <td>{$row['Jaiotze data']}</td>
-    #<td>{$row['Email']}</td>
-   #</tr>";
+while ($row = mysqli_fetch_array($query)) {
+  echo
+   "<tr>
+    <td>{$row['NAN']}</td>
+    <td>{$row['Izen abizenak']}</td>
+    <td>{$row['Telefonoa']}</td>
+    <td>{$row['Jaiotze data']}</td>
+    <td>{$row['Email']}</td>
+    <td>{$row['Pasahitza']}</td>
+   </tr>";
    
 
-#}
+}
 
   #header("Location: http://localhost:81/saioaHasi.php");
   #exit;
@@ -46,8 +47,8 @@ session_start();
       
     </span>
   </p>
-  <input type="email" class="login-username" autofocus="true" required="true" placeholder="Email" />
-  <input type="password" class="login-password" required="true" placeholder="Password" />
+  <input type="email" class="login-username" autofocus="true" required="true" placeholder="Helbide elektronikoa" />
+  <input type="password" class="login-password" required="true" placeholder="Pasahitza" />
   <input type="submit" name="Login" value="Login" class="login-submit" />
   
 </form>
