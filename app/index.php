@@ -7,7 +7,7 @@ session_start();
 
  
 
-$query = mysqli_query($conn, "SELECT * FROM Erabiltzaileak")
+$query = mysqli_query($conn, "SELECT * FROM erabiltzaileak")
   or die (mysqli_error($conn));
 
 while ($row = mysqli_fetch_array($query)) {
