@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `erabiltzaileak` (
   `NAN` varchar(9) NOT NULL,
-  `Izen abizenak` text NOT NULL,
+  `Izen abizenak` varchar(40) NOT NULL,
   `Telefonoa` int(9) NOT NULL,
   `Jaiotze data` date NOT NULL,
   `Email` text NOT NULL,
