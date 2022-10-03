@@ -1,9 +1,11 @@
 <?php
-
+$host = $_SERVER['HTTP_HOST'];
 require "konexioa.php";
   
 
 session_start();
+
+if($conn){
     $nan= $_POST['NAN'];
     $izena= $_POST['Izen Abizenak'];
     $jaio= $_POST['Jaiotza'];
@@ -11,10 +13,21 @@ session_start();
     $telefonoa= $_POST['Telefonoa'];
     $pasahitza= $_POST['Pasahitza'];
     
-    $sql ="INSERT INTO `erabiltzaileak` VALUES ('$nan', '$izena', '$jaio', '$email', '$telefonoa', '$pasahitza')";
-    $query = mysqli_query($conn,$sql);
-    $row = mysqli_fetch_array($query);
- 
+   
+    
+    
+    $sql ="INSERT INTO `erabiltzaileak` (`NAN`, `Izen abizenak`,`Telefonoa`,`Jaiotze data`,`Email`,`Pasahitza` ) VALUES ('$nan', '$izena', '$telefonoa', '$jaio', '$email', '$pasahitza')";
+    echo "$sql";
+    $query = mysqli_query($conn, $sql);
+    
+    if($query){
+    	echo "hola";
+        header("Location: http://localhost:81/index.php");
+        exit;
+    }
+    
+
+}
 
 
 
