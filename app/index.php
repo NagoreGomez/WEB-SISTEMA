@@ -30,6 +30,8 @@ while ($row = mysqli_fetch_array($query)) {
 ?>
 <!DOCTYPE html>
 <html lang="es">
+ <body>
+ 
 <form class="login-form">
   <p class="login-text">
     <span class="fa-stack fa-lg">
@@ -46,4 +48,6 @@ while ($row = mysqli_fetch_array($query)) {
 <div class="underlay-photo"></div>
 <div class="underlay-black"></div> 
 
+  </body>
+ </html>
 
