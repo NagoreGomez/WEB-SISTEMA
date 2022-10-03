@@ -66,8 +66,8 @@ while ($row = mysqli_fetch_array($query)) {
       
     </span>
   </p>
-  <input type="email" name="Email" class="login-username" autofocus="true" required="true" placeholder="Helbide elektronikoa" />
-  <input type="password"  name="Pasahitza"  class="login-password" required="true" placeholder="Pasahitza" />
+  <input type="email" name="Email" class="login-info" autofocus="true" required="true" placeholder="Helbide elektronikoa" />
+  <input type="password"  name="Pasahitza"  class="login-info" required="true" placeholder="Pasahitza" />
   <input type="submit" name="Login" value="Login" class="login-submit" />
   
 </form></form>
