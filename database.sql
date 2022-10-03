@@ -27,19 +27,20 @@ SET time_zone = "+00:00";
 -- Estructura de tabla para la tabla `usuarios`
 --
 
-CREATE TABLE `usuarios` (
+CREATE TABLE `Erabiltzaileak` (
   `NAN` varchar(9) NOT NULL,
   `Izen abizenak` text NOT NULL,
   `Telefonoa` int(9) NOT NULL,
   `Jaiotze data` date NOT NULL,
-  `Email` text NOT NULL
+  `Email` text NOT NULL,
+  `Pasahitza` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `usuarios`
 --
 
-INSERT INTO `usuarios` (`NAN`, `Izen abizenak`,`Telefonoa`,`Jaiotze data`,`Email`) VALUES
+INSERT INTO `Erabiltzaileak` (`NAN`, `Izen abizenak`,`Telefonoa`,`Jaiotze data`,`Email`) VALUES
 ('12345678A', 'Nagore Gomez', '698876543','2002-11-05', 'a@gmail.com'),
 ('12345678B', 'Jonas Martinez','634768598','2002-04-14', 'b@gmail.com'),
 ('12345678C', 'Sergio Martin','665289605','2002-06-24', 'c@gmail.com');
@@ -51,7 +52,7 @@ INSERT INTO `usuarios` (`NAN`, `Izen abizenak`,`Telefonoa`,`Jaiotze data`,`Email
 --
 -- Indices de la tabla `usuarios`
 --
-ALTER TABLE `usuarios`
+ALTER TABLE `Erabiltzaileak`
   ADD PRIMARY KEY (`NAN`);
 COMMIT;
 
