@@ -30,6 +30,13 @@ while ($row = mysqli_fetch_array($query)) {
 ?>
 <!DOCTYPE html>
 <html lang="es">
+ <link
+      rel="stylesheet"
+       type=text/css
+      href="./index.css"
+    />
+ 
+ 
  <body>
  
 <form class="login-form">
