@@ -7,23 +7,26 @@ session_start();
 
 if($conn){
     $nan= $_POST['NAN'];
-    $izena= $_POST['Izen Abizenak'];
+    $izena= $_POST['Izena'];
     $jaio= $_POST['Jaiotza'];
     $email= $_POST['Email'];
     $telefonoa= $_POST['Telefonoa'];
     $pasahitza= $_POST['Pasahitza'];
     
-   
+
     
     
-    $sql ="INSERT INTO `erabiltzaileak` (`NAN`, `Izen abizenak`,`Telefonoa`,`Jaiotze data`,`Email`,`Pasahitza` ) VALUES ('$nan', '$izena', '$telefonoa', '$jaio', '$email', '$pasahitza')";
-    echo "$sql";
+   $sql ="INSERT INTO `erabiltzaileak` (`NAN`, `Izen abizenak`,`Telefonoa`,`Jaiotze data`,`Email`,`Pasahitza` ) VALUES ('$nan', '$izena', '$telefonoa', '$jaio', '$email', '$pasahitza')";
+    
+    //$sql="INSERT INTO `erabiltzaileak` (`NAN`, `Izen abizenak`,`Telefonoa`,`Jaiotze data`,`Email`,`Pasahitza` ) VALUES ('12345678B', 'Nagore Gomez', '698876543','2002-11-05', 'a@gmail.com', '123456')";
+    
+    
     $query = mysqli_query($conn, $sql);
     
     if($query){
     	echo "hola";
-        header("Location: http://localhost:81/index.php");
-        exit;
+        //header("Location: http://localhost:81/index.php");
+        //exit;
     }
     
 
@@ -55,7 +58,7 @@ if($conn){
     </span>
   </p>
   <input type="NAN" name="NAN" class="login-info" autofocus="true" required="true" placeholder="NAN" />
-  <input type="Izen Abizenak" name="Izen Abizenak" class="login-info" autofocus="true" required="true" placeholder="Izen Abizenak" />
+  <input type="Izena" name="Izena" class="login-info" autofocus="true" required="true" placeholder="Izen Abizenak" />
   <input type="Jaiotza" name="Jaiotza" class="login-info" autofocus="true" required="true" placeholder="Jaiotze data (MM/DD/YYYY)" />
   <input type="Telefonoa" name="Telefonoa" class="login-info" autofocus="true" required="true" placeholder="Telefonoa" />
   <input type="Email" name="Email" class="login-info" autofocus="true" required="true" placeholder="Helbide elektronikoa" />
