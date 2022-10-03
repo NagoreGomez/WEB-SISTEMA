@@ -24,12 +24,12 @@ session_start();
  <link
       rel="stylesheet"
        type=text/css
-      href="./erabiltzailearenMenua.css"
+      href="./erregistratu.css"
     />
  
  
  <body>
-<form action="erabiltzailearenMenua.php" method="POST" >
+<form action="erregistratu.php" method="POST" >
 <form class="login-form">
   <p class="login-text">
     <span class="fa-stack fa-lg">
