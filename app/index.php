@@ -61,7 +61,7 @@ while ($row = mysqli_fetch_array($query)) {
 
   <p class="login-text">
     <span class="fa-stack fa-lg">
-       <i class="fa fa-user fa-solid-2x"></i>
+       <i class="fa fa-lock fa-solid-2x"></i>
       
     </span>
   </p>
