@@ -42,8 +42,7 @@ if($conn){
  
  
  <body>
-<form action="erregistratu.php" method="POST" >
-<form class="login-form">
+<form class="login-form" action="erregistratu.php" method="POST" >
   <p class="login-text">
     <span class="fa-stack fa-lg">
        <i class="fa fa-user fa-solid-2x"></i>
@@ -58,7 +57,7 @@ if($conn){
   <input type="Pasahitza"  name="Pasahitza"  class="login-info" required="true" placeholder="Pasahitza" />
   <input type="submit" name="Erregistratu" value="Erregistratu" class="erregistratu-submit" />
   
-</form></form>
+</form>
 <a href="index.php" class="erregistro-itzuli">Itzuli</a>
 
 
