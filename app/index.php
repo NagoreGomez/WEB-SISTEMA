@@ -57,8 +57,7 @@ while ($row = mysqli_fetch_array($query)) {
  
  <body>
  
-<form action="index.php" method="POST" > 
-<form class="login-form">
+<form class="login-form" action="index.php" method="POST" > 
 
   <p class="login-text">
     <span class="fa-stack fa-lg">
@@ -70,7 +69,7 @@ while ($row = mysqli_fetch_array($query)) {
   <input type="password"  name="Pasahitza"  class="login-info" required="true" placeholder="Pasahitza" />
   <input type="submit" name="Login" value="Login" class="login-submit" />
   
-</form></form>
+</form>
 <a class="login-erregistro" href="erregistratu.php" >Erregistratu nahi duzu?</a>
 
 
