@@ -29,10 +29,10 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `erabiltzaileak` (
   `NAN` varchar(9) NOT NULL,
-  `Izen abizenak` text NOT NULL,
+  `Izen abizenak` varchar(50) NOT NULL,
   `Telefonoa` int(9) NOT NULL,
   `Jaiotze data` date NOT NULL,
-  `Email` text NOT NULL,
+  `Email` varchar(50) NOT NULL,
   `Pasahitza` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
