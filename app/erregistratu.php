@@ -15,20 +15,31 @@ if($conn){
     
 
     
+    //$sql ="INSERT INTO erabiltzaileak VALUES ('27675465J', 'Nagore Gomez', '657435342', '2002-12-98', 'nagoregomez@gmail.com','123')";
+   
+     //print($sql);
     
-   $sql ="INSERT INTO `erabiltzaileak` (`NAN`, `Izen abizenak`,`Telefonoa`,`Jaiotze data`,`Email`,`Pasahitza` ) VALUES ('$nan', '$izena', '$telefonoa', '$jaio', '$email', '$pasahitza')";
     
-    //$sql="INSERT INTO `erabiltzaileak` (`NAN`, `Izen abizenak`,`Telefonoa`,`Jaiotze data`,`Email`,`Pasahitza` ) VALUES ('12345678B', 'Nagore Gomez', '698876543','2002-11-05', 'a@gmail.com', '123456')";
+    //$sql="SELECT * FROM erabiltzaileak";
     
     
-    $query = mysqli_query($conn, $sql);
     
-    if($query){
-    	echo "hola";
+    //$query = mysqli_query($conn, $sql);
+  
+    
+    //if($query){
+    	//echo "hola";
         //header("Location: http://localhost:81/index.php");
         //exit;
-    }
+    //}
     
+    $query = mysqli_query($conn, "INSERT INTO `erabiltzaileak` (`NAN`, `Izen abizenak`,`Telefonoa`,`Jaiotze data`,`Email`,`Pasahitza` ) VALUES
+('$nan', '$izena', '$telefonoa','$jaio', '$email', '$pasahitza')");
+     //or die (mysqli_error($conn));
+
+
+ 
+  
 
 }
 
