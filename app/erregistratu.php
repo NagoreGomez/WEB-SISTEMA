@@ -12,23 +12,16 @@ if($conn){
     $email= $_POST['Email'];
     $telefonoa= $_POST['Telefonoa'];
     $pasahitza= $_POST['Pasahitza'];
-    
-
- 
-    
-    //if($query){
-    	//echo "hola";
-        //header("Location: http://localhost:81/index.php");
-        //exit;
-    //}
-    
-    $query = mysqli_query($conn, "INSERT INTO `erabiltzaileak` (`NAN`, `Izen abizenak`,`Telefonoa`,`Jaiotze data`,`Email`,`Pasahitza` ) VALUES
-('$nan', '$izena', '$telefonoa','$jaio', '$email', '$pasahitza')");
-   
-
-
- 
   
+  
+    $sql="INSERT INTO `erabiltzaileak` (`NAN`, `Izen abizenak`,`Telefonoa`,`Jaiotze data`,`Email`,`Pasahitza` ) VALUES ('$nan', '$izena', '$telefonoa','$jaio', '$email', '$pasahitza')";
+    $query = mysqli_query($conn, $sql);
+     
+    
+     if($query){
+        header("Location: http://localhost:81/index.php");
+        exit;
+      }
 
 }
 
