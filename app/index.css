@@ -35,7 +35,7 @@ input {
 }
 
 .login-form {     //el contenedor donde esta todo
-  //background: #222;
+  background: White;
   //box-shadow: 0 0 1rem rgba(0,0,0,0.3);
   min-height: 10rem;
   margin: auto;
@@ -57,10 +57,9 @@ input {
   }
 }
 
-.login-info {
+.login-info {		//el border bottom no va y el cuadrado rojo al seleccionar feisimo
   background: transparent;
-  border: 0 solid;
-  border-bottom: 1px solid rgba(white, .5);
+  border: 2px solid white ;
   color: white;
   display: block;
   margin: 1rem;
@@ -68,7 +67,7 @@ input {
   transition: 250ms background ease-in;
   width: calc(100% - 3rem);
   &:focus {
-    background: white;
+    background: White;
     color: black;
     transition: 250ms background ease-in;
   }
