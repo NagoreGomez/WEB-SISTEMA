@@ -14,18 +14,7 @@ if($conn){
     $pasahitza= $_POST['Pasahitza'];
     
 
-    
-    //$sql ="INSERT INTO erabiltzaileak VALUES ('27675465J', 'Nagore Gomez', '657435342', '2002-12-98', 'nagoregomez@gmail.com','123')";
-   
-     //print($sql);
-    
-    
-    //$sql="SELECT * FROM erabiltzaileak";
-    
-    
-    
-    //$query = mysqli_query($conn, $sql);
-  
+ 
     
     //if($query){
     	//echo "hola";
@@ -35,7 +24,7 @@ if($conn){
     
     $query = mysqli_query($conn, "INSERT INTO `erabiltzaileak` (`NAN`, `Izen abizenak`,`Telefonoa`,`Jaiotze data`,`Email`,`Pasahitza` ) VALUES
 ('$nan', '$izena', '$telefonoa','$jaio', '$email', '$pasahitza')");
-     //or die (mysqli_error($conn));
+   
 
 
  
