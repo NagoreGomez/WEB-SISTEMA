@@ -35,7 +35,7 @@ input {
 }
 
 .login-form {     /*el contenedor donde esta todo */
-  /*background: White; */
+  /*background: White;*/
   /*box-shadow: 0 0 1rem rgba(0,0,0,0.3);  */
   min-height: 10rem;
   margin: auto;
