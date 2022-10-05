@@ -36,7 +36,7 @@ input {
 
 .login-form {     /*el contenedor donde esta todo */
   background: White;
-  //box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+  /*box-shadow: 0 0 1rem rgba(0,0,0,0.3);  */
   min-height: 10rem;
   margin: auto;
   max-width: 50%;
@@ -51,7 +51,7 @@ input {
   max-width: 50%;
   padding: .5rem;
   text-align: center;
-  //text-shadow: 1px -1px 0 rgba(0,0,0,0.3);
+  /*text-shadow: 1px -1px 0 rgba(0,0,0,0.3);  */
   .fa-stack-1x {
     color: black;
   }
