@@ -1,7 +1,7 @@
 
 <?php>
   print ("holaaaa")
- <?>
+ ?>
 
 <!DOCTYPE html>
 <html lang="es">
