@@ -51,7 +51,7 @@ if($conn){
   </p>
   <input type="NAN" name="NAN" class="login-info" autofocus="true" required="true" placeholder="NAN" />
   <input type="Izena" name="Izena" class="login-info" autofocus="true" required="true" placeholder="Izen Abizenak" />
-  <input type="Jaiotza" name="Jaiotza" class="login-info" autofocus="true" required="true" placeholder="Jaiotze data (DD/MM/YYYY)" />
+  <input type="Jaiotza" name="Jaiotza" class="login-info" autofocus="true" required="true" placeholder="Jaiotze data (YYYY-MM-DD)" />
   <input type="Telefonoa" name="Telefonoa" class="login-info" autofocus="true" required="true" placeholder="Telefonoa" />
   <input type="Email" name="Email" class="login-info" autofocus="true" required="true" placeholder="Helbide elektronikoa" />
   <input type="Pasahitza"  name="Pasahitza"  class="login-info" required="true" placeholder="Pasahitza" />
