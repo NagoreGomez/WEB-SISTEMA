@@ -57,9 +57,10 @@ input {
   }
 }
 
-.login-info {
+.login-info { 						/* PRUEBA COLOR CAMBIADO, A VER SI FUNCIONA */
   background: transparent;
-  border: 2px solid white;
+  border: 0px solid white;
+  border-bottom: 1px solid white;
   color: white;
   display: block;
   margin: 1rem;
