@@ -57,7 +57,7 @@ input {
   }
 }
 
-.login-info { 						/* PRUEBA COLOR CAMBIADO, A VER SI FUNCIONA */
+.login-info { 	/*No funciona lo del bottom hay que mirarlo, creo que es por el mozilla firefox */
   background: transparent;
   border: 0px solid white;
   border-bottom: 1px solid white;
