@@ -14,7 +14,7 @@ session_start();
     $row = mysqli_fetch_array($query);
 
     if($row['Email']!=null){ #erabiltzailea erregistratuta egotekotan 
-      $_SESSION['Email'] = $erabiltzaile;     
+      $_SESSION['Email'] = $email;     
       header("Location: http://localhost:81/erabiltzailearenMenua.php");
       exit;      
     }
