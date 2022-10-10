@@ -1,10 +1,10 @@
 
 <?php
  
-
+session_start();
 require "konexioa.php";
 
-session_start();
+
 
     $email= $_POST['Email'];
     $pasahitza= $_POST['Pasahitza'];
