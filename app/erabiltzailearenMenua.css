@@ -107,9 +107,11 @@ input {
 	text-decoration: none;
   
   
-  border: 1px solid white;
+  border: 2px solid white;
   background: transparent;
   color: white;
+  font-size: 15px;
+  background-color:rgba(255, 255, 255, 0.15);
   display: inline-block;
   align-items: center;
   transform: translateX(-50%);
@@ -127,22 +129,33 @@ input {
   }
 }
 
-.taula-erabiltzailea {
+.letra{
+color:white;
+border: solid 3px white ;
+font-weight: bold;
+}
 
-  color: white;
+
+table {
+  
   width: 100%;
-  border: 1px solid white;
-  padding: 10em;
+  border-collapse: collapse;
+  border: 3px solid white;
+  text-align:center;
+  
+}
+th, td {
+  padding: 20px; 
+}
+
+thead th {
+  width: 35%;
+  background-color:rgba(255, 255, 255, 0.15);
+  
 }
 
 
-.taula-erabiltzailea th td {
-   width: 25%;
-   text-align: left;
-   vertical-align: top;
-   border: 1px solid white;
-   border-spacing: 0;
-}
+
 
 
 
@@ -157,7 +170,7 @@ input {
 }
 .underlay-photo {
   //animation: hue-rotate 6s infinite;
-  background: url('https://i.pinimg.com/originals/f2/e4/7a/f2e47a69835fc28e0a3789f7543b1aa9.jpg');
+  background: url('https://impafri.com/wp-content/uploads/2019/10/montana-nevada-9.jpg');
   background-size: cover;
   -webkit-filter: grayscale(30%);
   z-index: -1;
