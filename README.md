@@ -25,4 +25,5 @@ Informazio Sistemen Segurtasuna Kudeatzeko Sistemak irakasgaian garatutako Web S
 5. [Ireki php my admin](http://localhost:8890)
 6. Erabiltzailea="admin" Pasahitza="test"
 7. Sakatu “database”,gero “importar” eta "Examinar" eta proiektuaren karpetan dagoen "ELNOMBREQUELEPONGAMOS" aukeratu. Amaitzeko, "continuar" sakatu
-9. [Web gunea ireki](http://localhost:81/index.php)
+8. Inplementatutako ccs-engatik gomendatzen dugu Google Chrome erabiltzea 
+9.[Web gunea ireki](http://localhost:81/index.php)
