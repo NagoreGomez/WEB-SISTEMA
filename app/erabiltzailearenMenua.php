@@ -1,9 +1,9 @@
 
 <?php
  
-session_start();
-require "konexioa.php";
 
+require "konexioa.php";
+session_start();
 
 
     $email= $_POST['Email'];
