@@ -56,6 +56,49 @@ ALTER TABLE `erabiltzaileak`
   ADD PRIMARY KEY (`NAN`);
 COMMIT;
 
+
+
+
+
+
+
+
+-- Estructura de tabla para la tabla `ibilbideak`
+--
+
+CREATE TABLE `ibilbideak` (
+  `Email` varchar(50) NOT NULL,
+  `Ibilbidearen izena` varchar(50) NOT NULL,
+  `Zailtasuna` varchar(50) NOT NULL,
+  `Distantzia (m)` int NOT NULL,
+  `Desnibela (m)` int NOT NULL,
+  `Link-a` varchar(200) NOT NULL
+
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Volcado de datos para la tabla `ibilbideak`
+--
+
+INSERT INTO `ibilbideak` (`Email`, `Ibilbidearen izena`,`Zailtasuna`,`Distantzia (m)`,`Desnibela (m)`,`Link-a` ) VALUES
+('a@gmail.com', 'Bilbo-Ganekogorta', 'Ertaina','1400', '900', 'linka'),
+('b@gmail.com', 'Barakaldo-Eretza','Zaila','1800', '800', 'linka'),
+('c@gmail.com', 'Trapaga-Peñas Negras','Zaila','1000', '1900', 'linkc');
+
+--
+-- Índices para tablas volcadas
+--
+
+--
+-- Indices de la tabla `ibilbideak`
+--
+ALTER TABLE `ibilbideak`
+  ADD PRIMARY KEY (`Email`,`Ibilbidearen izena`);
+COMMIT;
+
+
+
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
