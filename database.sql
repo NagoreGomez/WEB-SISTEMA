@@ -83,7 +83,8 @@ CREATE TABLE `ibilbideak` (
 INSERT INTO `ibilbideak` (`Email`, `Ibilbidearen izena`,`Zailtasuna`,`Distantzia (m)`,`Desnibela (m)`,`Link-a` ) VALUES
 ('a@gmail.com', 'Bilbo-Ganekogorta', 'Ertaina','1400', '900', 'linka'),
 ('b@gmail.com', 'Barakaldo-Eretza','Zaila','1800', '800', 'linka'),
-('c@gmail.com', 'Trapaga-Peñas Negras','Zaila','1000', '1900', 'linkc');
+('c@gmail.com', 'Trapaga-Peñas Negras','Zaila','1000', '1900', 'linkc'),
+('a@gmail.com', 'Monte Perdido-Goriz','Zaila','32000', '2600', 'https://github.com/anderra57/2maila');
 
 --
 -- Índices para tablas volcadas
