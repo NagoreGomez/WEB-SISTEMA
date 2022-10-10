@@ -68,7 +68,7 @@ while ($row = mysqli_fetch_array($ibilbideak)) {
               while($row=mysqli_fetch_array($ibilbideak)){
                 echo
                 "<tr>
-                  <td>{$row['Ibilbidearen Izena']}</td>
+                  <td>{$row['Ibilbidearen izena']}</td>
                   <td>{$row['Zailtasuna']}</td>         
                   <td>{$row['Distantzia (m)']}</td>
                   <td>{$row['Desnibela (m)']}</td>
