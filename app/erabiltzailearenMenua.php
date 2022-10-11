@@ -2,37 +2,13 @@
 <?php 
 
   require "konexioa.php";
-  if (empty(session_id()) && !headers_sent()){
-    session_start();
-  }
+  session_start();
   
   $email= $_SESSION['Email'];
   $izena= $_SESSION['Izen abizenak'];
   
-
-  
-  
-  
+    
   $ibilbideak = mysqli_query($conn, "SELECT * FROM `ibilbideak` WHERE `Email` = '$email'")
-
-/*
-while ($row = mysqli_fetch_array($ibilbideak)) {
-  echo
-   "<tr>
-    <td>{$row['Ibilbidearen Izena']}</td>
-    <td>{$row['Zailtasuna']}</td>
-    <td>{$row['Distantzia (m)']}</td>
-    <td>{$row['Desnibela (m)']}</td>
-    <td>{$row['Link-a']}</td>
-   </tr>";
-   
-
-}
-
-
-*/
-
-
 
   
  ?>
@@ -51,7 +27,7 @@ while ($row = mysqli_fetch_array($ibilbideak)) {
   <p class="login-text">
     <span class="fa-stack fa-lg">
        <!-- <i class="fa fa-user fa-solid-2x"></i> -->
-      <p style="font-size: 20px;margin: 0px 0; color:white">Hauek dira zure ibilbideak:</p>
+      <p style="font-size: 20px;margin: 0px 0; color:white">Hauek dira zure ibilbideaaA:</p>
        
         <table class="taula-erabiltzailea">
             <thead class="thead-taula">
@@ -66,7 +42,8 @@ while ($row = mysqli_fetch_array($ibilbideak)) {
               </tr>
             </thead>
             <tbody>
-              <?php      
+              <?php  
+               
               while($row=mysqli_fetch_array($ibilbideak)){
                 echo
                 "<tr>
@@ -91,7 +68,7 @@ while ($row = mysqli_fetch_array($ibilbideak)) {
   </p>
   <p>
   </p>
-  <input type="submit" name="Ibilbide berria gehitu" value="Ibilbide berria gehitu" class="ezabatu-gehitu-submit" /> 
+  <input type="submit" name="Ibilbide berria gehituuuuu" value="Ibilbide berria gehituuuuuu" class="ezabatu-gehitu-submit" /> 
   
 </form>
 <a href="index.php" class="erregistro-itzuli">Itzuli</a>   
