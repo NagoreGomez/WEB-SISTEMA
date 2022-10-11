@@ -26,7 +26,7 @@
   <p class="login-text">
     <span class="fa-stack fa-lg">
        <!-- <i class="fa fa-user fa-solid-2x"></i> -->
-      <p style="font-size: 20px;margin: 0px 0; color:white">Hauek dira zure ibilbideaaA:</p>
+      <p style="font-size: 20px;margin: 0px 0; color:white">Hauek dira zure ibilbidea:</p>
        
         <table class="taula-erabiltzailea">
             <thead class="thead-taula">
