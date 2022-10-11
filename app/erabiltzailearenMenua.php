@@ -2,7 +2,7 @@
 <?php 
 
   require "konexioa.php";
-  if (empty(session_id()) && !headers_set()){
+  if (empty(session_id()) && !headers_sent()){
     session_start();
   }
   
