@@ -26,4 +26,4 @@ Informazio Sistemen Segurtasuna Kudeatzeko Sistemak irakasgaian garatutako Web S
 6. Erabiltzailea="admin" Pasahitza="test"
 7. Sakatu “database”,gero “importar” eta "Examinar" eta proiektuaren karpetan dagoen "ELNOMBREQUELEPONGAMOS" aukeratu. Amaitzeko, "continuar" sakatu
 8. Inplementatutako CCS-engatik gomendatzen dugu Google Chrome erabiltzea 
-9. [Web gunea ireki](http://localhost:81/index.php)(modu egokian ikusteko chrome nabigatzailea erabili)
+9. [Web gunea ireki](http://localhost:81/index.php) (modu egokian ikusteko chrome nabigatzailea erabili)
