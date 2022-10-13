@@ -24,6 +24,6 @@ Informazio Sistemen Segurtasuna Kudeatzeko Sistemak irakasgaian garatutako Web S
     * `sudo docker-compose up`
 5. [Ireki php my admin](http://localhost:8890)
 6. Erabiltzailea="admin" Pasahitza="test"
-7. Sakatu “database”,gero “importar” eta "Examinar" eta proiektuaren karpetan dagoen "ELNOMBREQUELEPONGAMOS" aukeratu. Amaitzeko, "continuar" sakatu
+7. Sakatu “database”,gero “importar” eta "Examinar" eta proiektuaren karpetan dagoen "database.sql" aukeratu. Amaitzeko, "continuar" sakatu
 8. Inplementatutako CCS-engatik gomendatzen dugu Google Chrome erabiltzea 
 9. [Web gunea ireki](http://localhost:81/index.php)
