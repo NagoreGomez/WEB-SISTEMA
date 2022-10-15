@@ -66,10 +66,10 @@ CREATE TABLE `ibilbideak` (
 --
 
 INSERT INTO `ibilbideak` (`Id`, `Email`, `Ibilbidearen izena`, `Zailtasuna`, `Distantzia (m)`, `Desnibela (m)`, `Link-a`) VALUES
-(1, 'a@gmail.com', 'Bilbo-Ganekogorta', 'Ertaina', 1400, 900, 'linka'),
-(2, 'a@gmail.com', 'Monte Perdido-Goriz', 'Zaila', 32000, 2600, 'https://github.com/anderra57/2maila'),
-(3, 'b@gmail.com', 'Barakaldo-Eretza', 'Zaila', 1800, 800, 'linka'),
-(4, 'c@gmail.com', 'Trapaga-Peñas Negras', 'Zaila', 1000, 1900, 'linkc');
+(1, 'a@gmail.com', 'Bilbo-Ganekogorta', 'Ertaina', 13580, 845, 'https://es.wikiloc.com/rutas-senderismo/la-ruta-clasica-al-ganeko-pagasarri-lapurzulogana-ganekondo-ganekogorta-y-biderdi-22205574'),
+(2, 'a@gmail.com', 'Monte Perdido-Goriz', 'Zaila', 8950, 1161, 'https://es.wikiloc.com/rutas-alpinismo/monte-perdido-3355-m-desde-goriz-55472416'),
+(3, 'b@gmail.com', 'Errekatxo-Eretza', 'Ertaina', 16410, 956, 'https://es.wikiloc.com/rutas-senderismo/circular-el-regato-eretza-el-regato-67087851'),
+(4, 'c@gmail.com', 'Peñas Negras-Pico La Cruz', 'Erraza', 14390, 591, 'ttps://es.wikiloc.com/rutas-senderismo/6cimas-pena-pastor-675m-alto-de-galdames-713m-pico-mayor-747m-ganeran-822m-gasterantz-801m-pico-la-73578515');
 
 --
 -- Indexes for dumped tables
