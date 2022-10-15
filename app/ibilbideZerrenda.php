@@ -32,7 +32,7 @@
      <br/>
   <br/>
   
-      <p style="font-size: 20px;margin: 0px 0; color:white">Hauek dira Menditrack-eko ibilbide zerrenda:</p>
+      <p style="font-size: 20px;margin: 0px 0; color:white">Hau da Menditrack-eko ibilbide zerrenda:</p>
      <br/>
        
         <table class="taula-erabiltzailea">
