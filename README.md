@@ -17,7 +17,7 @@ Informazio Sistemen Segurtasuna Kudeatzeko Sistemak irakasgaian garatutako Web S
 ## Docker bidez proiektua hedatzeko instrukzioak
 1. [Proiektu honetako HTTPS linka kopiatu](https://github.com/NagoreGomez/WEB-SISTEMA)
 2. Karpeta berri bat sortu proiektua gordetzeko
-3. karpeta horren terminala ireki --> eskubiko klika eta "ireki hau terminalean" klikatu
+3. Karpeta horren terminala ireki --> eskubiko klika eta "ireki hau terminalean" klikatu
 4. Terminalean hurrengo komandoak sartu:
     * `git clone https://github.com/NagoreGomez/WEB-SISTEMA`
     * `sudo docker build -t="web" .`
