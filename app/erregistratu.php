@@ -68,7 +68,7 @@ header( 'X-XSS-Protection: 1;mode=block' );
       href="./erregistratu.css"
     />
  
- 
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none' ;" >
  <body>
 <form class="login-form" action="erregistratu.php" method="POST" id="erregistroa">
 <input name="csrf" type="hidden" value="<?php echo $_SESSION['token']; ?>">
