@@ -60,7 +60,7 @@ header( 'X-XSS-Protection: 1;mode=block' );
       href="./index.css"
     />
  
- 
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none' ;" >
  <body>
  
 <form class="login-form" action="index.php" method="POST" > 
