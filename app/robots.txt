@@ -1,7 +1,0 @@
-Header set X-Content-Type-Options nosniff
-Header set X-Robots-Tag noindex
-User-agent: *
-Disallow: /
-
-
-
