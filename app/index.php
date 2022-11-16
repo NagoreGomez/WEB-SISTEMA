@@ -1,10 +1,10 @@
 <?php
- 
+
 
 require "konexioa.php";
 
 
-#ini_set('session.cookie_httponly', "1");  	# Cookie No HttpOnly Flag
+ini_set('session.cookie_httponly', "1");  	# Cookie No HttpOnly Flag
 #ini_set('session.cookie_samesite', "Lax");  #no funciona pq es para php 7.3
 
 
@@ -25,17 +25,16 @@ if (empty($_SESSION['token'])) {
 	$bytes= hash('sha256',openssl_random_pseudo_bytes(32));
 	#$bytes = openssl_random_pseudo_bytes(32);
 	$_SESSION['token'] = bin2hex($bytes);  
-	
+
 }
 
 
-header( 'Content-Type: text/css' );
+#header( 'Content-Type: text/css' );
 header( 'X-Content-Type-Options: nosniff' );
 header( 'X-Frame-Options: SAMEORIGIN' );
 header( 'X-XSS-Protection: 1;mode=block' );
 header_remove('X-Powered-By'); 
 header("Set-Cookie: path=/; HttpOnly; SameSite=Lax");
-
 
 
 ?>
@@ -45,7 +44,6 @@ header("Set-Cookie: path=/; HttpOnly; SameSite=Lax");
 
 <header>
 <meta http-equiv="Content-Security-Policy" content="default-src 'none' ;" >
-<meta http-equiv="Content-Security-Policy" content="default-src 'none' ;" >
 </header>
 
  <link
@@ -53,10 +51,10 @@ header("Set-Cookie: path=/; HttpOnly; SameSite=Lax");
        type=text/css
       href="./index.css"
     />
- 
+
 
  <body>
- 
+
 <form class="login-form" action="log.php" method="POST" > 
 <input name="csrf" type="hidden" value="<?php echo $_SESSION['token']; ?>">
 
@@ -66,7 +64,7 @@ header("Set-Cookie: path=/; HttpOnly; SameSite=Lax");
   <input type="email" name="Email" class="login-info" autofocus="true" required="true" placeholder="Helbide elektronikoa" />
   <input type="password"  name="Pasahitza"  class="login-info" required="true" placeholder="Pasahitza" />
   <input type="submit" name="Login" value="Login" class="login-submit" />
-  
+
 </form>
 <a class="login-erregistro" href="erregistratu.php" >Erregistratu nahi duzu?</a>
 
@@ -76,6 +74,3 @@ header("Set-Cookie: path=/; HttpOnly; SameSite=Lax");
 
   </body>
  </html>
- 
-
-  
