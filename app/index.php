@@ -4,7 +4,7 @@
 require "konexioa.php";
 
 
-#ini_set('session.cookie_httponly', "1");  	# Cookie No HttpOnly Flag
+ini_set('session.cookie_httponly', "1");  	# Cookie No HttpOnly Flag
 #ini_set('session.cookie_samesite', "Lax");  #no funciona pq es para php 7.3
 
 
