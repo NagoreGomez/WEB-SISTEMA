@@ -29,9 +29,9 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `erabiltzaileak` (
   `NAN` varchar(9) NOT NULL,
-  `Izen abizenak` varchar(50) NOT NULL,
+  `Izen_abizenak` varchar(50) NOT NULL,
   `Telefonoa` int(9) NOT NULL,
-  `Jaiotze data` date NOT NULL,
+  `Jaiotze_data` date NOT NULL,
   `Email` varchar(50) NOT NULL,
   `Pasahitza` varchar(60) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -40,7 +40,7 @@ CREATE TABLE `erabiltzaileak` (
 -- Dumping data for table `erabiltzaileak`
 --
 
-INSERT INTO `erabiltzaileak` (`NAN`, `Izen abizenak`, `Telefonoa`, `Jaiotze data`, `Email`, `Pasahitza`) VALUES
+INSERT INTO `erabiltzaileak` (`NAN`, `Izen_abizenak`, `Telefonoa`, `Jaiotze_data`, `Email`, `Pasahitza`) VALUES
 ('12345678A', 'Nagore Gomez', 698876543, '2002-11-05', 'a@gmail.com', '123456'),
 ('12345678B', 'Jonas Martinez', 634768598, '2002-04-14', 'b@gmail.com', '98765'),
 ('12345678C', 'Sergio Martin', 665289605, '2002-06-24', 'c@gmail.com', 'Contra0');
@@ -54,18 +54,18 @@ INSERT INTO `erabiltzaileak` (`NAN`, `Izen abizenak`, `Telefonoa`, `Jaiotze data
 CREATE TABLE `ibilbideak` (
   `Id` int(11) NOT NULL,
   `Email` varchar(50) NOT NULL,
-  `Ibilbidearen izena` varchar(50) NOT NULL,
+  `Ibilbidearen_izena` varchar(50) NOT NULL,
   `Zailtasuna` varchar(50) NOT NULL,
-  `Distantzia (m)` int(11) NOT NULL,
-  `Desnibela (m)` int(11) NOT NULL,
-  `Link-a` varchar(200) NOT NULL
+  `Distantzia_m` int(11) NOT NULL,
+  `Desnibela_m` int(11) NOT NULL,
+  `Link` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `ibilbideak`
 --
 
-INSERT INTO `ibilbideak` (`Id`, `Email`, `Ibilbidearen izena`, `Zailtasuna`, `Distantzia (m)`, `Desnibela (m)`, `Link-a`) VALUES
+INSERT INTO `ibilbideak` (`Id`, `Email`, `Ibilbidearen_izena`, `Zailtasuna`, `Distantzia_m`, `Desnibela_m`, `Link`) VALUES
 (1, 'a@gmail.com', 'Bilbo-Ganekogorta', 'Ertaina', 13580, 845, 'https://es.wikiloc.com/rutas-senderismo/la-ruta-clasica-al-ganeko-pagasarri-lapurzulogana-ganekondo-ganekogorta-y-biderdi-22205574'),
 (2, 'a@gmail.com', 'Monte Perdido-Goriz', 'Zaila', 8950, 1161, 'https://es.wikiloc.com/rutas-alpinismo/monte-perdido-3355-m-desde-goriz-55472416'),
 (3, 'b@gmail.com', 'Errekatxo-Eretza', 'Ertaina', 16410, 956, 'https://es.wikiloc.com/rutas-senderismo/circular-el-regato-eretza-el-regato-67087851'),
