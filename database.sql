@@ -41,9 +41,8 @@ CREATE TABLE `erabiltzaileak` (
 --
 
 INSERT INTO `erabiltzaileak` (`NAN`, `Izen_abizenak`, `Telefonoa`, `Jaiotze_data`, `Email`, `Pasahitza`) VALUES
-('12345678A', 'Nagore Gomez', 698876543, '2002-11-05', 'a@gmail.com', '123456'),
-('12345678B', 'Jonas Martinez', 634768598, '2002-04-14', 'b@gmail.com', '98765'),
-('12345678C', 'Sergio Martin', 665289605, '2002-06-24', 'c@gmail.com', 'Contra0');
+('12345678A', 'Nagore Gomez', 698876543, '2002-11-05', 'a@gmail.com', '$2y$10$iZf7uxPFmNAJ9oyvbdarM.epJhn80Bx88IWlP.DH.ZkLOxPKq35yu'),
+('12345678B', 'Jonas Martinez', 634768598, '2002-04-14', 'b@gmail.com', '$2y$10$4d/.UuVkk6nBaDPr2Is/BOm3TTvkPThAZeCMyHE12ZTgknXWkLpjO');
 
 -- --------------------------------------------------------
 
@@ -69,7 +68,7 @@ INSERT INTO `ibilbideak` (`Id`, `Email`, `Ibilbidearen_izena`, `Zailtasuna`, `Di
 (1, 'a@gmail.com', 'Bilbo-Ganekogorta', 'Ertaina', 13580, 845, 'https://es.wikiloc.com/rutas-senderismo/la-ruta-clasica-al-ganeko-pagasarri-lapurzulogana-ganekondo-ganekogorta-y-biderdi-22205574'),
 (2, 'a@gmail.com', 'Monte Perdido-Goriz', 'Zaila', 8950, 1161, 'https://es.wikiloc.com/rutas-alpinismo/monte-perdido-3355-m-desde-goriz-55472416'),
 (3, 'b@gmail.com', 'Errekatxo-Eretza', 'Ertaina', 16410, 956, 'https://es.wikiloc.com/rutas-senderismo/circular-el-regato-eretza-el-regato-67087851'),
-(4, 'c@gmail.com', 'Peñas Negras-Pico La Cruz', 'Erraza', 14390, 591, 'https://es.wikiloc.com/rutas-senderismo/6cimas-pena-pastor-675m-alto-de-galdames-713m-pico-mayor-747m-ganeran-822m-gasterantz-801m-pico-la-73578515');
+(4, 'b@gmail.com', 'Peñas Negras-Pico La Cruz', 'Erraza', 14390, 591, 'https://es.wikiloc.com/rutas-senderismo/6cimas-pena-pastor-675m-alto-de-galdames-713m-pico-mayor-747m-ganeran-822m-gasterantz-801m-pico-la-73578515');
 
 --
 -- Indexes for dumped tables
