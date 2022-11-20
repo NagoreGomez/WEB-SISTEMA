@@ -75,10 +75,10 @@ function killerSession(){
   <input type ="Jaiotza" name="Jaiotza" class="login-info" id="Jaiotza" <?php echo" value='{$row['Jaiotze_data']}'";?>/>
   
   <p style="font-size: 20px;margin: 0px 0; color:white">Pasahitza:</p>
-  <input type= "Pasahitza"name="Pasahitza" class="login-info" id="Pasahitza"/>
+  <input type="password" name="Pasahitza" class="login-info" id="Pasahitza"/>
   
     <p style="font-size: 20px;margin: 0px 0; color:white">Pasahitz berria:</p>
-  <input type= "PasahitzaBerria"name="PasahitzaBerria" class="login-info" id="PasahitzaBerria"/>
+  <input type="password" name="PasahitzaBerria" class="login-info" id="PasahitzaBerria"/>
   
   
   <input  value="Aldatu" class="ezabatu-gehitu-submit" type="submit"/>
@@ -97,4 +97,5 @@ function killerSession(){
 
   </body>
  </html>
+ 
  
